@@ -10,7 +10,7 @@ public class FirstClass {
     @BeforeMethod
     public void preCondition(){
     WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver","/Users/tayahatum/Downloads/chromedriver");
+        //System.setProperty("webdriver.chrome.driver","/Users/tayahatum/Downloads/chromedriver");
         wd = new ChromeDriver();
 
 
