@@ -28,11 +28,6 @@ public class TicketService {
 
 
 
-
-
-
-
-
     @Test
     public void cssLocatorsTest(){
         // By.id
@@ -69,8 +64,7 @@ public class TicketService {
         // // cssLocators  find by attribute  [attribute='value']
         wd.findElement(By.cssSelector("[href='/login']"));
 
-
-        // practics
+        // practice
         wd.findElement(By.cssSelector("div.container-fluid.header"));
 
 
